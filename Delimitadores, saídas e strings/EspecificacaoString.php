@@ -1,17 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Especificação de string - Aspas simples e aspas duplas</title>
+<title>Untitled</title>
+<meta charset="utf-8">
 </head>
 <body>
-    
-<?php
-$variavel = "Valor variavel";
-echo "função echo sendo chamada'teste"
-?>
 
+<?php 
+$escola = "Impacta";
+
+echo "Eu não matei Joana D'Arc";
+echo "<br>";
+echo 'Eu não gosta daquela candidata "engraçada"!!!!!';
+
+echo "<br>";
+echo 'Eu não matei Joana D\'Arc';
+echo "<br>";
+echo "Eu não gosta daquela candidata \"engraçada\"!!!!!";
+
+echo "<hr>";
+echo 'A escola se chama $escola';
+echo "<br>";
+echo "A escola se chama $escola";//interpolação de variavel
+echo "<hr>";
+echo "O conteudo da \$escola é $escola";
+echo "<br>";
+echo 'O conteudo da $escola é ' . $escola;
+?>
 </body>
 </html>
