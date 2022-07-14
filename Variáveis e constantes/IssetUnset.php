@@ -11,6 +11,7 @@
 <?php
 
 //Estudo de insset - testa a existencia da variavel
+//Estudo de unset - apaga variavel da memoria
 
 $a = 12;
 
