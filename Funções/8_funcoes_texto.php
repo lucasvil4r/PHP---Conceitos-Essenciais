@@ -46,6 +46,4 @@ print rtrim($branco);
 print HR;
 print trim($branco);
 print HR;
-
-
 ?>
